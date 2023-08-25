@@ -1,0 +1,109 @@
+.container {
+    background-color: azure;
+    margin: auto;
+}
+
+.addHabit {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    background-color: lightgray;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.addHabit input {
+    width: 510px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.addBtn {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #563d64;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.no_hbt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 50px;
+    font-size: 24px;
+    color: #563d64;
+    background-color: #dce1f7;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Habit card */
+.habitCardContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.habitCard {
+    justify-content: space-between;
+    width: 90%;
+    height: 60px;
+    margin: 20px 0px;
+    background-color: #f8f1ff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.habitCardTitle {
+    display: flex;
+    justify-content: space-between;
+}
+.habitActionName {
+    display: flex;
+    cursor: pointer;
+}
+
+.cardName {
+    font-size: 20px;
+    font-weight: 600;
+    color: #563d64;
+    margin-left: 10px;
+}
+/* Delete option icon */
+.deleteBtn {
+    filter: brightness(70%) saturate(0%);
+}
+
+.weeklyProgress {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Option icon */
+.habitCardCheckIcon {
+    font-size: 20px;
+    color: lightslategray;
+}
+.doneIcon {
+    color: darkgreen;
+    opacity: 80%;
+}
+
+.habitCardCrossIcon {
+    font-size: 20px;
+    color: red;
+}

@@ -1,0 +1,47 @@
+.topnav {
+    display: flex;
+    background-color: azure;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width: 97%;
+    justify-content: space-between;
+}
+
+.navLeft {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLeftElem {
+    list-style-type: none;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.decorationLogo {
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.decoration {
+    font-weight: 500;
+    text-decoration: none;
+}
+.activeLink {
+    color: #362b40;
+    background-color: #dce1f7;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 8px 8px -5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.navRightElem {
+    color: darkslategray;
+    font-weight: 600;
+}
