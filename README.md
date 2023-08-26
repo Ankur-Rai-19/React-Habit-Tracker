@@ -1,5 +1,5 @@
 # **React Habit Tracker App** 🚀
-Habit Tracker is a simple web application built with React that allows users to track their daily habits and monitor their progress over time.
+The Habit Tracker App is a web application that helps users establish and track their daily and weekly habits. This project is built using React.js and Redux for state management, and it provides a user-friendly interface to manage habits effectively.
 
 ## ⭐ Features
 - Add new habits with customizable titles.
@@ -20,7 +20,8 @@ Habit Tracker is a simple web application built with React that allows users to 
 - Run 'npm start'.
 - Enjoy :)
 
-## Site is live at:
+Note: By Clicking the Habit Tracker on the name(Logo), you will see the Input for adding Habits.
+## Site is live at: https://ankur-rai-19.github.io/React-Habit-Tracker/
 
 ## SOME SCREENSHOTS:
 
