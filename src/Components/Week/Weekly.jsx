@@ -5,6 +5,7 @@ import styles from "../../Styles/Weekly.module.css";
 import WeeklyCard from "./WeeklyCard";
 
 const Weekly = () => {
+    /*Using `useSelector` hook from `react-redux` to select and retrieve the `habitsReducer` state from the Redux store. */
     const habits = useSelector((state) => state.habitsReducer);
     console.log(habits);
 

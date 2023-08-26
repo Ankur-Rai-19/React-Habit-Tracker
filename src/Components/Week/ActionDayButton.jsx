@@ -1,5 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
+/*----------------Font Awesome Icon--------------------*/
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faSquare,

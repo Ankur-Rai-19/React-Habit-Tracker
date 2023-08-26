@@ -56,8 +56,8 @@ const Home = () => {
                     ))
                 )}
             </div>
+
             {/* Toast container */}
-            {/* <ToastContainer position="top-right" /> */}
             <ToastContainer position="top-right" />
         </div>
     );

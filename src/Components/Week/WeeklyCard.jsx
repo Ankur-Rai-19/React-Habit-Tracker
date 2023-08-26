@@ -5,6 +5,7 @@ import ActionDayButton from "./ActionDayButton";
 import SingleDay from "./SingleDay";
 
 const WeeklyCard = (props) => {
+    /* is using object destructuring to extract the `habit` property from the `props` object. */
     const { habit } = props;
     // console.log(habit);
 
